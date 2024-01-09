@@ -1,0 +1,13 @@
+In this question, we ask you to implement the following code in one line.
+
+The length of the code you send must be exactly one line, and you cannot use ; or use the exec function. Now we ask you, who consider yourself to be a hard working python, to solve this question.
+input_string = str(input())
+array = []
+for i in range(len(input_string)):
+    if (ord(input_string[i]) - 97) % 2 == 0:
+        array.append(input_string[i])
+    else:
+        array.append(input_string[i].upper())
+array.sort(reverse=True)
+answer = ' '.join(array)
+print(answer)
