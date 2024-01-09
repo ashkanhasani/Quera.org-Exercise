@@ -1,0 +1,17 @@
+Sajjad is a list
+   
+It has n numbers and divides it into different groups; in such a way that
+   
+m puts the first member in a group,
+   
+m groups the next member in a group and so on (note that the last group may be less than
+   
+have m members).
+
+Based on these numbers, Sajjad creates a new list that the member
+   
+The second is the total number of group members
+   
+be i
+
+He, who has a special interest in chess, is one of the members of the new list. It means that from the first member of the new list, it subtracts the second member and then adds the third member and subtracts the fourth member from this value and continues this process until it reaches the end of the new list and then the final value as Considers the value of the list.
