@@ -1,0 +1,10 @@
+Saad and Hamad, who are roommates in a dormitory; They take the elevator from the ground floor to go to the floor where their room is located. But when they get on the elevator; They decide to play an exciting game!
+
+Their dormitory elevator has only up and down buttons, the up button takes the elevator to a higher floor and the down button takes the elevator to a lower floor.
+
+The game is such that these two people have 4 times to press the down and up button of this elevator. Finally, after pressing the up and down buttons of the elevator 4 times; They must understand which floor they are on.
+We assume that we also have negative floors and the elevator, up to 4 floors, will also go underground.
+
+Now, complete the calculate_floor function in such a way that by taking a 4-letter string that includes U meaning going to the upper floor and D meaning going to the lower floor, it will return the number of the floor to which we will finally go.
+
+Pay attention that at the beginning of the movement, we are on the ground floor (number 0).
