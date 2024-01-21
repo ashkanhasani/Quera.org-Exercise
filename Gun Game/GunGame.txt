@@ -10,7 +10,9 @@ There is no weapon selected.
 The bullet does not match the gun.
 be a negative number.
 There is no bullet of the given size.
-The method of shooting at the target receives the parameters of the target coordinates, the distance to it and the coordinates of the point that the weapon points to from the input, and in the output, using the following formula, it returns the amount of damage to the target.
+The method of shooting at the target receives the parameters of the target coordinates,
+the distance to it and the coordinates of the point that the weapon points to from the input,
+and in the output, using the following formula, it returns the amount of damage to the target.
 
 The goal is a 10-sided square.
 The coordinates of the lower-left corner of the square are given in the input.
