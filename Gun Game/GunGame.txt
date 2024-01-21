@@ -1,0 +1,20 @@
+Imagine a first-person shooter; There are various types of weapons in this game and each weapon has a unique name, range, power and bullet size. On the other hand, the bullets also have a unique size and damage
+The weapon selection method selects a weapon to be used according to the input.
+
+An Exception must be thrown if a weapon with the given name does not exist.
+This method should be case sensitive; For example, we don't have a weapon named submachine gun.
+The select bullet method adds bullets of the given size and number to the weapon.
+
+An Exception must be thrown if any of the following occurs:
+There is no weapon selected.
+The bullet does not match the gun.
+be a negative number.
+There is no bullet of the given size.
+The method of shooting at the target receives the parameters of the target coordinates, the distance to it and the coordinates of the point that the weapon points to from the input, and in the output, using the following formula, it returns the amount of damage to the target.
+
+The goal is a 10-sided square.
+The coordinates of the lower-left corner of the square are given in the input.
+To calculate the output, we do as follows:
+If the weapon's range is less than the distance, 0 is returned.
+Otherwise, the product of weapon power multiplied by bullet damage is returned.
+If a weapon is not selected or has no bullets, an Exception should be thrown.
