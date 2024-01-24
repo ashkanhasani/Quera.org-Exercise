@@ -1,0 +1,7 @@
+You must write a class called Foo that has a property called x that is initialized according to these rules:
+
+The initial value of x is zero when the Foo class is created.
+When setting x to a number:
+If the number is non-negative, the two digits on the right side of it are stored in x.
+If the number is negative, the value of x will be equal to -1.
+The value stored in x must be of type int.
