@@ -1,0 +1,12 @@
+In this exercise,
+you should design a class called Chain so that it has the following behaviors:
+Chain addition of numbers
+When one or more numbers (both integers and decimals) are passed as parameters to the class, the output must be a sum of the input numbers.
+Also, the objects themselves must be equal to the output value.
+Concatenation of strings
+When one or more concatenated strings are passed as parameters to the class, the output must be a string concatenating the input strings with a space character (as a separator).
+Also, the objects themselves must be equal to the output value.
+Other modes
+In the following two cases, an exception with invalid operation message must be thrown:
+One or more strings and numbers are sent as parameters to the class at the same time.
+Any parameter that is not a string or number should be sent to the class.
