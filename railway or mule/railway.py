@@ -1,5 +1,5 @@
 class Train:
-    
+
     def __init__(self, last_visited_city, weight_capacity, is_on_trip):
         self.last_visited_city = last_visited_city
         self.weight_capacity = weight_capacity
@@ -7,18 +7,21 @@ class Train:
 
 
 class Trip:
-
-    all_cities = ('Arak', 'Ardabil', 'Urmia', 'Isfahan', 'Ahvaz', 'Ilam', 'Bojnord', 'Bandar Abbas', 'Bushehr', 'Birjand', 'Tabriz', 'Tehran', 'Khorramabad', 'Rasht', 'Zahedan', 'Zanjan', 'Sari', 'Semnan', 'Sanandaj', 'Shahr-e Kord', 'Shiraz', 'Qazvin', 'Qom', 'Karaj', 'Kermanshah', 'Gorgan', 'Mashhad', 'Hamadan', 'Yasuj', 'Yazd')
+    all_cities = (
+        'Arak', 'Ardabil', 'Urmia', 'Isfahan', 'Ahvaz', 'Ilam', 'Bojnord', 'Bandar Abbas', 'Bushehr', 'Birjand',
+        'Tabriz',
+        'Tehran', 'Khorramabad', 'Rasht', 'Zahedan', 'Zanjan', 'Sari', 'Semnan', 'Sanandaj', 'Shahr-e Kord', 'Shiraz',
+        'Qazvin', 'Qom', 'Karaj', 'Kermanshah', 'Gorgan', 'Mashhad', 'Hamadan', 'Yasuj', 'Yazd')
 
     def __init__(self, origin_city, destination_city, train):
         self.train = self.train_validation(train)
         self.destination_city = destination_city
         self.origin_city = self.origin_city_validation(origin_city)
         self.passengers = []
-    
+
     def origin_city_validation(self, origin_city):
         pass
-        
+
     def train_validation(self, train):
         pass
 
