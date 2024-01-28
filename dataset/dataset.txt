@@ -1,0 +1,42 @@
+in a database
+   
+A binary string n in length
+ℓ
+ℓ has been saved. We have also attributed Y or N to each of these fields.
+
+now to you
+   
+A binary string of length q
+ℓ
+ℓ is given and we ask you to check which is Y or N. If a string does not exist in the dataset, we output the string Unknown.
+
+Entrance
+In the first line, enter three integers
+   
+n and
+   
+q and
+
+ℓ separated by a space.
+
+
+
+At
+   
+Next n lines, each line a string long
+ℓ
+You are given ℓ of 0 and 1 characters followed by one of Y and N characters followed by a space.
+
+Guaranteed no two of these
+   
+n strings are not equal.
+
+At
+   
+q Next line, each line a string long
+ℓ
+You are given ℓ of characters 0 and 1.
+output
+output has q lines and in each line, print the character corresponding to the string and if this string in it
+   
+n The string was missing, print Unknown.
