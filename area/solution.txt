@@ -1,0 +1,7 @@
+In this question, we are going to calculate the area of ​​four shapes: circle, rectangle, square and triangle.
+We ask you to write a function called get_func(ls) that takes a list of strings (which are the names of different two-dimensional shapes) as input, and for each string the function calculates its area, and in the same way, the input list in a list Saves and outputs new.
+Area calculator functions
+Square: The square area calculator function has only one argument and that is the length of the side of the square. The output is the square area based on the given volume.
+Circle: The circle area calculator function takes the radius of the circle as an argument and outputs the area of ​​the circle.
+Rectangle: The rectangle area calculator function takes two arguments, length and width, and outputs the area of ​​the rectangle.
+Triangle: The triangle calculator function takes two arguments, height and base, and outputs the area of ​​the triangle.
